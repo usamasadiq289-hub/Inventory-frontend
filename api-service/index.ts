@@ -1,7 +1,7 @@
 // Centralized API service for frontend to interact with backend
 // Uses fetch API and returns JSON
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000/api';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://inventory-backend-ivory.vercel.app/api';
 
 // API function types
 type Stock = {
